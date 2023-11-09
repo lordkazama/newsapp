@@ -110,7 +110,7 @@ export class News extends Component {
                       : ""}
                     imageUrl={element.urlToImage
                       ? element.urlToImage
-                      : "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSF2KTjdkrae7DSg2iMlEIfg_oY2FXR6gNBLjEcxmVGw-w3TD9a56fKV9T7B2XXF9upJ5s&usqp=CAU"}
+                      : ''}
                     newsUrl={element.url} />
                 </div>
 
